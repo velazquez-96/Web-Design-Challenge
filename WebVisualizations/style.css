@@ -1,0 +1,141 @@
+
+.right-box{
+    background-color: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left-box{
+    background-color: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    color:#003554;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row2_main{
+    margin-top: 40px;
+}
+.box-comp{
+    background-color: white;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.box-nav .navbar-brand{
+    margin-left: 15px;
+}
+
+.box-nav{
+    background-color: white;
+}
+
+.navbar .navbar-brand{
+    background-color:#519fed;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 4px;
+}
+.main_img{
+    float: left;
+}
+p.main_p1{
+    line-height: 1.8;
+    padding: 15px;
+    color: grey;
+}
+p.main_p2{
+    line-height: 1.8;
+    padding: 15px;
+    color:grey
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    width:100%;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding-top: 15px;
+}
+.header_comp{
+    color: #003554;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.comp_titles{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #003554;
+}
+.img_single{
+    padding: 20px;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p.txt_maxtemp{
+    line-height: 1.5;
+    padding: 15px;
+    color: grey;
+}
+a.active, .graph_active:hover{
+    border-style: solid;
+    border-color: #f26419;
+}
+.graph_fixed{
+    border-style: solid;
+    border-color: #f26419;
+}
+.box_data{
+    background-color:white;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.table{
+    font-size: 15px;
+}
+p.txt_line{
+    padding-bottom: 20px;
+}
+
+
+@media(max-width: 767px){
+    .box-nav .navbar{
+        background-color: #519fed;
+        padding: 0;
+    }
+    .navbar-collapse{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .footer{
+        height: 5%;
+        padding: 5px;
+        font-size: 10px;
+    }
+    button{
+        margin-right: 15px;
+    }
+    .box_data{
+        margin-bottom: 15px;
+    }
+}

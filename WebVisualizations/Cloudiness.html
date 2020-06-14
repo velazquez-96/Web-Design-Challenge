@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudiness</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:gainsboro">
+    <div class="box-nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" style="color:white" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-lg-8">
+                <div class="box left-box">
+                    <div class="header">
+                        <h2>Cloudiness</h2>
+                    </div>
+                    <hr>
+                    <img src="../Resources/assets/images/Fig3.png" class="img_single" style="width:85%" alt="">
+                    <p class="txt_cloudiness">The above figure suggests that cloudiness and latitude have a weak correlation. It can be seen that the cloudiness percentage is the same for many locations in both the southern and northern hemispheres for the date the data was collected. Also, the latter suggests that there may be any other factors that affect cloudiness rather than the latitude.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="box right-box">
+                    <div class="header">
+                        <h3>Visualizations</h3>
+                    </div>
+                    <hr>
+                    <div class="row row1_main">
+                        <div class="col-md-6 col-sm-6">
+                            <a href="MaxTemp.html"><img class="graph_active" src="../Resources/assets/images/Fig1.png" style="width:100%"
+                                    style="height:100%" alt=""></a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a href="Humidity.html"><img class="graph_active" src="../Resources/assets/images/Fig2.png" style="width:100%"
+                                    style="height:100%" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row row2_main">
+                        <div class="col-md-6 col-sm-6">
+                            <a href="Cloudiness.html"><img class="graph_fixed" src="../Resources/assets/images/Fig3.png" style="width:100%"
+                                    style="height:100%" alt=""></a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a href="WindSpeed.html"><img class="graph_active" src="../Resources/assets/images/Fig4.png" style="width:100%"
+                                    style="height:100%" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <p>Copyright Iván Velázquez - DataAnalytics BootCamp 2020</p>
+          </div>
+
+
+
+
+</body>
+
+</html>
