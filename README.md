@@ -9,6 +9,10 @@ The project is focused on creating a static website with weather data. The websi
 
 ## Features 
 
+* Use of Bootstrap, HTML, and CSS
+* Website adjusted to any screen
+* Analysis for each plot
+
 
 ## Built with 
 
@@ -17,3 +21,7 @@ The project is focused on creating a static website with weather data. The websi
 * CSS
 
 ## Outcomes
+
+Functionality of the website
+
+[](name-of-giphy.gif)
