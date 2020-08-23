@@ -24,4 +24,4 @@ The project is focused on creating a static website with weather data. The websi
 
 Functionality of the website
 
-[](name-of-giphy.gif)
+[Gift-Web](Images/Gift-Web.gif)
